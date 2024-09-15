@@ -1,0 +1,40 @@
+.personagens {
+
+    margin: 0 200px;
+
+    &__title {
+        text-align: center;
+        font-size: 40px;
+        margin: 40px 0;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__image {
+        img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            text-align: center;
+        }
+
+        &:hover img {
+            filter: brightness(50%);
+            transition: 0.5s ease;
+
+        }
+
+    }
+
+    &__nome {
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+}
